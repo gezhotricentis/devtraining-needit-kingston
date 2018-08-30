@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Steps to approve and fulfill NeedIt requests.</description>
+        <label_cache>[{"name":"Created_1.current.u_when_needed","label":"Trigger➛NeedIt Record➛When needed","reference":"","reference_display":"When needed","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_58872_needit_needit","column_name":"u_when_needed"},{"name":"Created_1.current.u_request_type","label":"Trigger➛NeedIt Record➛Request type","reference":"","reference_display":"Request type","type":"choice","base_type":"choice","parent_table_name":"x_58872_needit_needit","column_name":"u_request_type","choices":[{"reference":false,"used":false,"image":"","label":"Human Resources","rawLabel":"Human Resources","missing":false,"selected":false,"value":"hr"},{"reference":false,"used":false,"image":"","label":"Facilities","rawLabel":"Facilities","missing":false,"selected":false,"value":"facilities"},{"reference":false,"used":false,"image":"","label":"Legal","rawLabel":"Legal","missing":false,"selected":false,"value":"legal"}]},{"name":"603d8def-0db7-480b-b26d-59f6edf6cf62.approval_state","label":"1➛Approval State","type":"choice","base_type":"choice"},{"name":"Created_1.current.u_requested_for.manager","label":"Trigger➛NeedIt Record➛Requested for➛Manager","reference":"sys_user","reference_display":"Manager","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"Created_1.current","label":"Trigger➛NeedIt Record","reference":"x_58872_needit_needit","reference_display":"NeedIt","type":"reference","base_type":"reference"},{"name":"8a875c6b-7c40-4859-8f8c-4531bc5d50aa.record","label":"2➛NeedIt Record","reference":"x_58872_needit_needit","reference_display":"NeedIt Record"},{"name":"8a875c6b-7c40-4859-8f8c-4531bc5d50aa.table_name","label":"2➛NeedIt Table","reference":"x_58872_needit_needit","reference_display":"NeedIt Table"}]</label_cache>
+        <name>Needit Fulfillment</name>
+        <parent_flow display_value="Needit Fulfillment">5a6b46d44f5023001895ff6f9310c7d5</parent_flow>
+        <remote_trigger_id>2e5e12504f9023001895ff6f9310c7ec</remote_trigger_id>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>fred.luddy</sys_created_by>
+        <sys_created_on>2018-08-30 07:54:49</sys_created_on>
+        <sys_id>fb0df6a84f1023001895ff6f9310c76e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Needit Fulfillment</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_fb0df6a84f1023001895ff6f9310c76e</sys_update_name>
+        <sys_updated_by>fred.luddy</sys_updated_by>
+        <sys_updated_on>2018-08-30 07:54:49</sys_updated_on>
+    </sys_hub_flow_snapshot>
+</record_update>
